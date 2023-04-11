@@ -68,7 +68,7 @@ function List({url}) {
   return (
     <div className='d-flex flex-column align-items-center container'>
       <strong className='align-self-end mt-3'>{total} Results</strong>
-      <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3 py-5 m-0">
+      <div className="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-3 py-5 m-0 w-100">
         {
           showItems.map(id => <div key={id} className="col"><ListCard objectID={id}/></div>)
         }
