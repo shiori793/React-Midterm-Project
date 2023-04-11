@@ -75,10 +75,11 @@ function ArtSearch() {
         );
         break;
       case 'geoLocation':
+        const newValue = value.charAt(0).toUpperCase() + value.substr(1).toLowerCase();
         setQuery(prevValue =>
           ({
               ...prevValue,
-              geoLocation : value
+              geoLocation : newValue
           })
         );
         break;
