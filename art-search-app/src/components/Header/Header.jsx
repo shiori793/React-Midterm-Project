@@ -24,10 +24,14 @@ function Header() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
             <NavItem>
-            <RouterNavLink to={"/"} style={{textDecoration: 'none'}}><NavLink>Home</NavLink></RouterNavLink>
+              <RouterNavLink to={"/"} style={{textDecoration: 'none'}}>
+                <NavLink>Home</NavLink>
+              </RouterNavLink>
             </NavItem>
             <NavItem>
-            <RouterNavLink to={"/search"} style={{textDecoration: 'none'}}><NavLink>Search</NavLink></RouterNavLink>
+              <RouterNavLink to={"/search"} style={{textDecoration: 'none'}}>
+                <NavLink>Search</NavLink>
+              </RouterNavLink>
             </NavItem>
           </Nav>
         </Collapse>
