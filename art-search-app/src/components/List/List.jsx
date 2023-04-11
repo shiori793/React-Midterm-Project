@@ -82,7 +82,7 @@ function List({url}) {
         </PaginationItem>
         {
           showPages.map(item => 
-            <PaginationItem key={item} active={page == item ? true : false}>
+            <PaginationItem key={item} active={page === item ? true : false}>
               <PaginationLink onClick={handlePage} value={item} >
                 {item}
               </PaginationLink>
