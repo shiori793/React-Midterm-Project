@@ -119,7 +119,7 @@ function ArtSearch() {
           <Input
             id="searchText"
             name="searchText"
-            placeholder="Search"
+            placeholder="Search (Required)"
             type="text"
             required
             onChange={handleChange}
