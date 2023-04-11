@@ -43,7 +43,6 @@ function ArtSearch() {
         newUrl += `&${key}=${value}`;
       }
     }
-    console.log(newUrl);
     setUrl(newUrl);
   }, [query]);
 
